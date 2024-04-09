@@ -1,0 +1,22 @@
+
+.faixa-topo-azul{
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
