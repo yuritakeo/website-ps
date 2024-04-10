@@ -1,5 +1,6 @@
 import logo from '../../assets/logo-ps.svg'
 
+import './style.css'
 export default function Footer(){
     return(
         <footer>

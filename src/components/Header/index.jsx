@@ -8,7 +8,7 @@ export default function Header() {
         <header>
             <div className="faixa-topo-azul" />
 
-            <div className="container">
+            <div className="container-header">
                 <LogoEmpresa />
                 <Menu />
             </div>

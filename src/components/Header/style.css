@@ -2,16 +2,17 @@
 .faixa-topo-azul{
     height: 40px;
     width: 100%;
-    background-color: blue;
+    background-color: #075AA9;
 }
 
 a{
     text-decoration: none;
 }
 
-.container{
+.container-header{
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
