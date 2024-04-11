@@ -23,17 +23,18 @@ export default function Vagas() {
             <form action="">
                 <input type="email" placeholder="E-mail" />
                 <input type="tel" placeholder="Telefone" />
-                <input type="datetime-local" placeholder="Data Nascimento" />
+                <input type="date" placeholder="Data Nascimento" />
                 <input type="text" placeholder="CPF" />
-
+                
                 <h3>Genero</h3>
-                <div className="radio">
+                <div className="radio" radioGroup="genero">
                     <label>
                         <input
                             type="radio"
                             value="Male"
-                            // checked={this.state.selectedOption === "Male"}
-                            // onChange={this.onValueChange}
+                            radioGroup="genero"
+                             checked={this.state.selectedOption === "Male"}
+                             onChange={this.onValueChange}
                         />
                         Masculino
                     </label>
@@ -41,9 +42,10 @@ export default function Vagas() {
                     <label>
                         <input
                             type="radio"
-                            value="Male"
-                            // checked={this.state.selectedOption === "Male"}
-                            // onChange={this.onValueChange}
+                            value="Famale"
+                            radioGroup="genero"
+                             checked={this.state.selectedOption === "Male"}
+                             onChange={this.onValueChange}
                         />
                         Feminino
                     </label>
@@ -51,7 +53,8 @@ export default function Vagas() {
                     <label>
                         <input
                             type="radio"
-                            value="Male"
+                            value="Estranho"
+                            radioGroup="genero"
                             // checked={this.state.selectedOption === "Male"}
                             // onChange={this.onValueChange}
                         />

@@ -8,6 +8,7 @@ export default function Menu() {
                 <li><a href="/">Inicio</a></li>
                 <li><a href="/vagas">Vagas</a></li>
                 <li><a href="/departamentos">Departamentos</a></li>
+                <li><a href="/treino">Treino</a></li>
             </ul>
         </div>
     )
