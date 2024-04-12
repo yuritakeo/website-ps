@@ -50,35 +50,53 @@ export default function Vagas() {
                 <h2>Quer trabalhar conosco?</h2>
             </div>
 
-            <div>
+            <div className="form-nossa-oportunidades">
                 <h3>NOSSAS OPORTUNIDADES HOJE</h3>
-                <input type="text" placeholder="Digite o nome da vaga" />
+                <input id="pesquisa-vaga" type="text" placeholder="Digite o nome da vaga" />
 
-                <p>Tipo de Vaga</p>
-                <select name="tipoVaga" id="tipoVaga">
-                    <option value="todas">Todas</option>
-                    <option value="efetivo">Efetivo</option>
-                    <option value="estagiario">Estágiario</option>
-                    <option value="temporario">Temporário</option>
-                </select>
-
-
-                <p>Empresa</p>
-                <select name="empresa" id="empresa">
-                    <option value="todas">Todas</option>
-                    <option value="praia-sol">Praia Sol</option>
-                    <option value="vereda">Vereda</option>
-                </select>
+                <div className="forms-filtro-vagas">
+                    <p>Tipo de Vaga</p>
+                    <select name="tipoVaga" id="tipoVaga">
+                        <option value="todas">Todas</option>
+                        <option value="efetivo">Efetivo</option>
+                        <option value="estagiario">Estágiario</option>
+                        <option value="temporario">Temporário</option>
+                    </select>
 
 
-                <p>Áreas</p>
-                <select name="area" id="area">
-                    <option value="todas">Todas</option>
-                    <option value="operacional">Operacional</option>
-                    <option value="administrativo">Administrativo</option>
-                    <option value="manutencao">Manutenção</option>
-                </select>
+                    <p>Empresa</p>
+                    <select name="empresa" id="empresa">
+                        <option value="todas">Todas</option>
+                        <option value="praia-sol">Praia Sol</option>
+                        <option value="vereda">Vereda</option>
+                    </select>
 
+
+                    <p>Áreas</p>
+                    <select name="area" id="area">
+                        <option value="todas">Todas</option>
+                        <option value="operacional">Operacional</option>
+                        <option value="administrativo">Administrativo</option>
+                        <option value="manutencao">Manutenção</option>
+                    </select>
+                </div>
+            </div>
+
+            <div className="listagem-vagas">
+                {
+                    vagas.map((vaga) => {
+                        return <div className="item-lista">
+                            <div className="conteudo-vaga">
+                                <p>Função: {vaga.funcao}</p>
+                                <p>Vaga para: {vaga.nomeVaga}</p>
+                                <p>Empresa: {vaga.empresa}</p>
+                            </div>
+                            <div className="botao-candidatar">
+                                <button>Inscrever-se</button>
+                            </div>
+                        </div>
+                    })
+                }
             </div>
         </>
     )
