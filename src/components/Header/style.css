@@ -1,11 +1,18 @@
-.faixa-topo-azul{
-    height: 5vh;
-    width: 100%;
-    background-color: #075AA9;
+header{
+    display: flex;
+    flex-direction: column;
 }
 
 a{
     text-decoration: none;
+}
+
+
+.faixa-topo-azul{
+    height: 5vh;
+    width: 100%;
+    background-color: #075AA9;
+
 }
 
 .container-header{
@@ -13,6 +20,7 @@ a{
     flex-direction: row;
     align-items: center;
     width: 100%;
+    background-color: #FFF;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 

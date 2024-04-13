@@ -87,9 +87,9 @@ export default function Vagas() {
                     vagas.map((vaga) => {
                         return <div className="item-lista">
                             <div className="conteudo-vaga">
-                                <p>Função: {vaga.funcao}</p>
-                                <p>Vaga para: {vaga.nomeVaga}</p>
-                                <p>Empresa: {vaga.empresa}</p>
+                                <p><sgrong>Função:</sgrong> {vaga.funcao}</p>
+                                <p><sgrong>Vaga para:</sgrong> {vaga.nomeVaga}</p>
+                                <p><sgrong>Empresa:</sgrong> {vaga.empresa}</p>
                             </div>
                             <div className="botao-candidatar">
                                 <button>Inscrever-se</button>
