@@ -1,6 +1,7 @@
 import { useState } from "react"
 
 import iconVagas from '../../assets/icon-vagas.svg'
+import iconLupa from '../../assets/lupa.svg'
 
 import './style.css'
 export default function Vagas() {
@@ -52,8 +53,10 @@ export default function Vagas() {
 
             <div className="form-nossa-oportunidades">
                 <h3>NOSSAS OPORTUNIDADES HOJE</h3>
-                <input id="pesquisa-vaga" type="text" placeholder="Digite o nome da vaga" />
-
+                <div className="container-campo-pesquisa">
+                    <input id="pesquisa-vaga" type="text" placeholder="Digite o nome da vaga" />
+                    <button><img src={iconLupa} alt="Icone lupa da imagem" /></button>
+                </div>
                 <div className="forms-filtro-vagas">
                     <p>Tipo de Vaga</p>
                     <select name="tipoVaga" id="tipoVaga">
