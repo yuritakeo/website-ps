@@ -99,7 +99,7 @@ export default function Vagas() {
                             <div className="conteudo-vaga">
                                 <img src={vaga.empresaLogo} alt="" />
                                 <p><sgrong>{vaga.funcao}</sgrong></p>
-                                <p><sgrong>Requisitos:</sgrong> {vaga.requisitos.map((valor)=>{
+                                <p><sgrong>Requisitos:</sgrong> {vaga.requisitos.map((valor) => {
                                     return <p>{valor}</p>
                                 })}</p>
 
