@@ -56,6 +56,9 @@
     width: 95%;
     text-align: center;
 }
+.form-nossa-oportunidades h3{
+    margin: 10px 0;
+}
 
 .forms-filtro-vagas{
     display: flex;
