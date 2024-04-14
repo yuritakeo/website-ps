@@ -1,3 +1,5 @@
+
+
 #titulo {
     margin-top: 10px;
     color: #075AA9;
@@ -7,8 +9,9 @@
 #pesquisa-vaga{
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 4px;
     padding-left: 10px;
+    font-size: 16px;
 }
 
 .trabalhe-conosco {
@@ -32,15 +35,25 @@
     width: auto;
     padding: 8px 8px;
     align-items: center;
-    
+}
+.container-campo-pesquisa input{
+    height: 45px;
+}
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 95%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .form-nossa-oportunidades{
-    
     margin: 30px auto;
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    width: 80%;
+    border-radius: 8px;
+    
+    width: 95%;
     text-align: center;
 }
 
@@ -50,13 +63,17 @@
 }
 
 .forms-filtro-vagas p{
+    margin-top: 10px;
+    margin-bottom: 5px;
     width: fit-content;
 }
 
-.item-lista p{
-    padding: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+.item-select{
+    height: 45px;
+    font-size: 16px;
 }
+
+
 
 sgrong{
     font-weight: 1000;
@@ -97,20 +114,48 @@ input{
     padding: 10px;
     display: flex;
     margin: 0 auto;
-    width: 80%;
-    background-color: rgba(0, 0, 0, 0.1);
+    
     margin-top: 4px;
     align-items: center;
     border-radius: 8px;
     border: 1px solid  rgba(0, 0, 0, 0.1);;
 }
 
+.item-lista p{
+    padding: 8px;
+    
+}
+
 .conteudo-vaga{
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 
+.conteudo-vaga p{
+    font-size: 20px;
+}
+
+
+.conteudo-vaga img{
+    height: 50px;
+}
+
 .botao-candidatar{
-    width: auto;
+    width: 100%;
     height: 100%
+}
+
+.botao-candidatar button{
+    margin-top: 10px;
+    background-color: #075AA9;
+    color: #FFF;
+    font-size: 1.3rem;
+    padding: 12px 0;
+    width: 100%;
+    height: 100%
+}
+
+.listagem-vagas h1{
+    padding: 10px 0;
+    text-align: center;
 }
