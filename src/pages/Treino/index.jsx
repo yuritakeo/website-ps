@@ -1,37 +1,17 @@
 
-import { useState } from "react"
+// import 'dotenv/config'
 
 import "./style.css"
 export default function Treino() {
 
-    const [nome, setNome] = useState("")
-    const [cpf, setCpf] = useState("")
+    function handleClickBotao() {
+        
+        alert(import.meta.env.VITE_SOME_KEY);
+    }
 
     return (
         <div>
-            <h1>Treino</h1>
-
-            <input
-                type="text"
-                placeholder="Digite seu nome"
-                value={nome}
-                onChange={(qualquercoisa) => setNome(qualquercoisa.target.value)}
-            />
-
-            <br />
-
-            <input
-                type="text"
-                placeholder="digite seu cpf"
-                value={cpf}
-                onChange={(valorCpf) => setCpf(valorCpf.target.value)}
-            />
-
-            <br />
-
-            nome: {nome}
-            <br />
-            cpf: {cpf}
+            <button onClick={handleClickBotao}>Clicar para testar</button>
         </div>
     )
 }

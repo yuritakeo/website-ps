@@ -32,13 +32,13 @@ export default function Register() {
             nascimento: nascimento,
             telefone: telefone
           }).then(() => {
-
+            // falta recuperar dados do velue da api
             let data = {
               uid: uid,
-              nome: value.user.nome,
-              email: value.user.email,
-              password: value.user.password,
-              telefone: value.user.telefone
+              nome: nome,
+              email: email,
+              password: password,
+              telefone: telefone
             };
             // contaudo do objeto com id
             console.log(data) 
