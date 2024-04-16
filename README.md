@@ -1,9 +1,4 @@
-# Vulnerabilidade
-
-npm i react-scripts
-
-8 vunerabilidade (2 moderate, 6 high)
-
+# Verificar variavel de ambientes para chaves do firebase
 
 
 # Rascunho
