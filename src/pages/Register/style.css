@@ -1,0 +1,13 @@
+.register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form button{
+    background-color: #075AA9;
+    color: #FFF;
+    font-size: 1.3rem;
+    width: 100%;
+}
