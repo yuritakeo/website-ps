@@ -61,7 +61,7 @@ export default function Register() {
         <span>Crie sua conta e se candidatar-se facilmente em nossas vagas disponiveis</span>
       </div>
 
-      <form className="container" onSubmit={handleRegister}>
+      <form className="container" onSubmit={handleRegister} >
         Nome: <input
           type="text"
           placeholder="Digite seu email"
@@ -91,7 +91,7 @@ export default function Register() {
           value={telefone}
           onChange={(e) => setTelefone(e.target.value)}
         />
-        <button type="submit" >Cadastrar</button>
+        <button className="form-button" type="submit" >Cadastrar</button>
       </form>
     </div>
   )
