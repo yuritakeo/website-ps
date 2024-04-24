@@ -1,0 +1,48 @@
+.container{
+    width: 98%;
+    height: 30vh;
+    text-align: center;
+}
+
+
+.container img{
+    width: 95%;
+    
+}
+
+.barraPaginacao input{
+    margin: 0 8px;
+}
+
+.Deslizar2, .Deslizar3{
+    display: none;
+}
+
+.barraPaginacao{
+    display: flex;
+    gap: 8px;
+    
+    width: fit-content;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.Deslizante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-radio{
+    background-color: #fff;
+    border-radius: 6px;
+    height: 7px;
+    width: 80px;
+    transition: all 200ms;
+}
+
+.btn-radio:hover{
+    background-color: black;
+}

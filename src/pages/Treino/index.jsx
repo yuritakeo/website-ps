@@ -1,17 +1,28 @@
+import noticia1 from '../../assets/PRAIA-SOL-GRANVIA24_2 1.jpg'
 
-// import 'dotenv/config'
-
-import "./style.css"
+import './style.css'
 export default function Treino() {
 
-    function handleClickBotao() {
-        
-        alert(import.meta.env.VITE_SOME_KEY);
-    }
-
     return (
-        <div>
-            <button onClick={handleClickBotao}>Clicar para testar</button>
+        <div className="container">
+            <div className='Deslizante'>
+                <div className='Deslizar1'>
+                    <img src={noticia1} alt="" />
+                </div>
+                <div className='Deslizar2'>
+                    <img src={noticia1} alt="" />
+                </div>
+                <div className='Deslizar3'>
+                    <img src={noticia1} alt="" />
+                </div>
+
+                <div className='barraPaginacao'>
+                    <div className='btn-radio' id='radio1'/>
+                    <div className='btn-radio' id='radio2'/>
+                    <div className='btn-radio' id='radio3'/>
+                </div>               
+            </div>
+
         </div>
     )
 }

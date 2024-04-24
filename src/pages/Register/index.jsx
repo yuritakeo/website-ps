@@ -42,7 +42,7 @@ export default function Register() {
             };
             // contaudo do objeto com id
             console.log(data) 
-            // implementar localstorage
+            //TODO: implementar localstorage
           })
 
           navigate('/', { replace: true })
