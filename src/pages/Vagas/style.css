@@ -151,7 +151,7 @@ input{
 }
 
 
-conteudo-vagaimg{
+.conteudo-vaga > img{
     height: 50px;
 }
 

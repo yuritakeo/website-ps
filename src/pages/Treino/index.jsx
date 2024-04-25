@@ -1,7 +1,10 @@
+import { useState } from 'react'
 import noticia1 from '../../assets/PRAIA-SOL-GRANVIA24_2 1.jpg'
 
 import './style.css'
 export default function Treino() {
+
+    const [listNoticias, setListNoticias] = useState([])
 
     return (
         <div className="container">
