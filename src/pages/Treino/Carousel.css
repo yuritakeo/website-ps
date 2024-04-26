@@ -1,0 +1,39 @@
+/* Carousel.css */
+.carousel-container {
+    margin-bottom: 20px;
+  }
+  
+  .carousel {
+    position: relative; /* Para posicionar os botões corretamente */
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    display: none; /* Oculta todas as imagens por padrão */
+    width: 100%; /* Ocupa toda a largura */
+    height: auto; /* Altura automática */
+  }
+  
+  .carousel img.active {
+    display: block; /* Exibe apenas a imagem do slide atual */
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }

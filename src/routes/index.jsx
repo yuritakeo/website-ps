@@ -9,6 +9,7 @@ import Register from '../pages/Register'
 
 
 import Roleta from "../pages/Roleta"
+import Transcol from "../pages/Transcol"
 
 
 
@@ -22,6 +23,7 @@ function RoutesApp() {
             
             <Route path='/treino' element={<Treino />} />
             <Route path='/roleta' element={<Roleta />} />
+            <Route path='/transcol' element={<Transcol />} />
         </Routes>
     )
 }
